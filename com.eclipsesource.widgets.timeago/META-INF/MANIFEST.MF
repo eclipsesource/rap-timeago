@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JQuery Timeago Widget
+Bundle-SymbolicName: com.eclipsesource.widgets.timeago
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EclipseSource
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.rap.rwt;bundle-version="1.4.0"
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: com.eclipsesource.internal.widgets.timeago.Activator
+Import-Package: org.osgi.framework;version="1.6.0",
+ org.osgi.service.http;version="1.2.1",
+ org.osgi.util.tracker;version="1.5.0"
+Export-Package: com.eclipsesource.widgets.timeago
